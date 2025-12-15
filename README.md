@@ -1,3 +1,11 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Docker](https://img.shields.io/badge/Docker-Ready-success)
+![API](https://img.shields.io/badge/API-FastAPI-green)
+![Model](https://img.shields.io/badge/Model-SVD%20(Matrix%20Factorization)-brightgreen)
+![Status](https://img.shields.io/badge/Status-Production--Ready-success)
+
+
+
 # ecommerce-recommender
 
 Top-N product recommendations using collaborative filtering (TensorFlow/Keras) + FastAPI + Docker.
