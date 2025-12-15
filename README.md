@@ -40,7 +40,16 @@ The project is designed to reflect a real-world applied ML scenario rather than 
 - Trained model is serialized and stored as `artifacts/svd_model.pkl`
 
 ---
+## Architecture Overview
 
+The system follows a standard offline training + online inference architecture:
+
+1. Offline training pipeline trains a Matrix Factorization (SVD) model on historical user–item interactions.
+2. The trained model is serialized and stored as an artifact.
+3. At runtime, the FastAPI service loads the model and generates Top-N recommendations on demand.
+4. The inference service is containerized with Docker for reproducible deployment.
+
+---
 ## Project Structure
 
 ```text
